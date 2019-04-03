@@ -104,7 +104,7 @@ The processes (i.e. pre-training, adaptation, and evaluation) should be run
 with any module/neural network. 
 
 If you have any question, please ask it using the 
-[issue section](https://github.com/dr-costas/undaw/issues) of this
+[issues section](https://github.com/dr-costas/undaw/issues) of this
 repository.
 
 ---
