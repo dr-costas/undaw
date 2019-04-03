@@ -27,9 +27,9 @@ In order to use our code, you have to firstly:
 [requirements file for PiP](https://github.com/dr-costas/undaw//blob/master/requirements.txt) or at the
 [requirements file for Anaconda](https://github.com/dr-costas/undaw//blob/master/conda_requirements.txt) 
 * download the data (the file ``AUDASC_features_labels.zip``) from 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1164585.svg)](https://zenodo.org/record/1401995#.W31Zaxx9iK4))
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1164585.svg)](https://zenodo.org/record/1401995#.W31Zaxx9iK4)
 * download the pre-trained non-adapted model (the file ``AUDASC_pretrained_weights.zip``) from 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1164585.svg)](https://zenodo.org/record/1401995#.W31Zaxx9iK4)) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1164585.svg)](https://zenodo.org/record/1401995#.W31Zaxx9iK4) 
 and the adapted model from 
  
 (this is optional and is required only in the case that you want to reproduce the 
