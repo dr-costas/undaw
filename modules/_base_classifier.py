@@ -19,10 +19,6 @@ class BaseClassifier(nn.Module):
         """Stub initialization method.
         """
         super(BaseClassifier, self).__init__()
-        raise NotImplementedError(
-            'This is the base classifier.'
-            'Please implement a classifier, extending this one.'
-        )
 
     def forward(self, x):
         """The forward pass of the label classifier.
