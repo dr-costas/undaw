@@ -1,5 +1,7 @@
 # UNDAW Repository
+
 ### Welcome to the repository of UNDAW (Unsupervised Adversarial Domain Adaptation Based on the Waserstein Distance)
+
 This is the repository for the method presented in the paper: 
 "Unsupervised Adversarial Domain Adaptation Based on the Waserstein Distance," 
 by [K.
@@ -13,14 +15,20 @@ You can find an online version of our paper at arxiv:
 
 **If you use our method, please cite our paper**: 
 
+---
+
 ##Table of Contents
+
 1. [ Dependencies, pre-requisites, and setting up the code ](#dependencies-pre-requisites-and-setting-up-the-code)
 2. [ Reproduce the results of the paper ](#reproduce-the-results-of-the-paper)
 3. [ Use the code with your own data ](#use-the-code-with-your-own-data)
 4. [ Previous work ](#previous-work)
 5. [ Acknowledgement ](#acknowledgement)
 
-##Dependencies, pre-requisites, and setting up the code 
+---
+
+##Dependencies, pre-requisites, and setting up the code
+ 
 In order to use our code, you have to firstly:
  
 * use Python 3.x and install all the required packages listed at the
@@ -62,7 +70,10 @@ use our code for your own task and/or with your own data.
 
 Enjoy! 
 
+---
+
 ##Reproduce the results of the paper
+
 To reproduce the results of the paper, you have to:
 * make sure that you have followed the steps in the 
 [ dependencies, pre-requisites, and setting up the code ](#Dependencies,-pre-requisites,-and-setting up the code)
@@ -74,7 +85,10 @@ If you find any problem doing the above, please let us know through the
 [issues section](https://github.com/dr-costas/undaw/issues) of this
 repository. 
 
+---
+
 ##Use the code with your own data
+
 To use your code with your own data, you will have to:
 
 * provide a set of features to be used
@@ -93,12 +107,18 @@ If you have any question, please ask it using the
 [issue section](https://github.com/dr-costas/undaw/issues) of this
 repository.
 
+---
+
 ##Previous work
+
 Our work is based on the following previous work: 
 * AUDASC method, for domain adaptation for acoustic scene classification. 
-* Wasserstein GANs, for using the WGAN algorithm. 
+* Wasserstein GANs, for using the WGAN algorithm.
+
+--- 
 
 ##Acknowledgement
+
 * Part of the computations leading to these results were performed on a TITAN-X GPU
 donated by [NVIDIA](https://www.nvidia.com/en-us/) to K. Drossos. 
 * The authors wish to acknowledge [CSC-IT Center for Science](https://www.csc.fi/), 
