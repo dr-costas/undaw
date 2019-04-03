@@ -17,7 +17,7 @@ You can find an online version of our paper at arxiv:
 
 ---
 
-##Table of Contents
+## Table of Contents
 
 1. [ Dependencies, pre-requisites, and setting up the code ](#dependencies-pre-requisites-and-setting-up-the-code)
 2. [ Reproduce the results of the paper ](#reproduce-the-results-of-the-paper)
@@ -27,7 +27,7 @@ You can find an online version of our paper at arxiv:
 
 ---
 
-##Dependencies, pre-requisites, and setting up the code
+## Dependencies, pre-requisites, and setting up the code
  
 In order to use our code, you have to firstly:
  
@@ -72,7 +72,7 @@ Enjoy!
 
 ---
 
-##Reproduce the results of the paper
+## Reproduce the results of the paper
 
 To reproduce the results of the paper, you have to:
 * make sure that you have followed the steps in the 
@@ -87,7 +87,7 @@ repository.
 
 ---
 
-##Use the code with your own data
+## Use the code with your own data
 
 To use your code with your own data, you will have to:
 
@@ -109,7 +109,7 @@ repository.
 
 ---
 
-##Previous work
+## Previous work
 
 Our work is based on the following previous work: 
 * AUDASC method, for domain adaptation for acoustic scene classification. 
@@ -117,7 +117,7 @@ Our work is based on the following previous work:
 
 --- 
 
-##Acknowledgement
+## Acknowledgement
 
 * Part of the computations leading to these results were performed on a TITAN-X GPU
 donated by [NVIDIA](https://www.nvidia.com/en-us/) to K. Drossos. 
