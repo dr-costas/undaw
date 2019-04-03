@@ -24,15 +24,33 @@ You can find an online version of our paper at arxiv:
 In order to use our code, you have to firstly:
  
 * use Python 3.x and install all the required packages listed at the
-[requirements.txt file]
-* download the data from 
-* download the pre-trained non-adapted model from here and the adapted model from here 
+[requirements file for PiP](https://github.com/dr-costas/undaw//blob/master/requirements.txt) or at the
+[requirements file for Anaconda](https://github.com/dr-costas/undaw//blob/master/conda_requirements.txt) 
+* download the data (the file ``AUDASC_features_labels.zip``) from 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1164585.svg)](https://zenodo.org/record/1401995#.W31Zaxx9iK4))
+* download the pre-trained non-adapted model (the file ``AUDASC_pretrained_weights.zip``) from 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1164585.svg)](https://zenodo.org/record/1401995#.W31Zaxx9iK4)) 
+and the adapted model from 
+ 
 (this is optional and is required only in the case that you want to reproduce the 
 results of the paper)
 
 Then: 
-* place the downloaded data at the directory.
-* place the downloaded models at the directory. 
+* unzip the file ``AUDASC_features_labels.zip``. This will produce the following files, which
+will have to be placed inside the directory ``dataset/data``: 
+    * ``test_features.p``
+    * ``test_scene_labels.p``
+    * ``training_features.p``
+    * ``training_scene_labels.p``
+    * ``validation_features.p``
+    * ``validation_scene_labels.p`` 
+    
+* unzip the file ``AUDASC_pretrained_weights.zip``. This will produce the following files, which
+will have to be place inside the directory ``pretrained_weights``:
+    *  ``label_classifier.pytorch``
+    * ``LICENSE``
+    * ``non_adapted_cnn.pytorch`` 
+    * ``target_cnn.pytorch``
 
 That's it! 
 
@@ -53,14 +71,31 @@ section
 * issue the following command at your terminal: ``./undaw_paper.sh``
 
 If you find any problem doing the above, please let us know through the 
-[issue section](https://github.com/dr-costas/undaw/issues) of this
+[issues section](https://github.com/dr-costas/undaw/issues) of this
 repository. 
 
 ##Use the code with your own data
+To use your code with your own data, you will have to:
+
+* provide a set of features to be used
+* modify the ``data_handlers._domain_dataset.DomainDataset`` class
+* modify the modules used and are in the ``modules`` package
+* modify the settings to be used (i.e. the file that you will use and 
+will be in the ``settings`` directory)
+* modify the settings reading for each of the modules, by modifying the
+functions in the ``helpers._models.py`` and ``helpers._modules_functions.py``
+files 
+
+The processes (i.e. pre-training, adaptation, and evaluation) should be run 
+with any module/neural network. 
+
+If you have any question, please ask it using the 
+[issue section](https://github.com/dr-costas/undaw/issues) of this
+repository.
 
 ##Previous work
 Our work is based on the following previous work: 
-* AUDASC method, for domain adaptation for acoustic scene classification
+* AUDASC method, for domain adaptation for acoustic scene classification. 
 * Wasserstein GANs, for using the WGAN algorithm. 
 
 ##Acknowledgement
