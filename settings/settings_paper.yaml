@@ -49,12 +49,12 @@ models:
   base_dir_name: 'outputs/models'
   asc_model:
     pre_trained: Yes
-    source_model_f_name: 'audasc_non_adapted_cnn.pt'
-    target_model_f_name: 'audasc_adapted_cnn.pt'
+    source_model_f_name: 'non_adapted_cnn.pt'
+    target_model_f_name: 'adapted_cnn.pt'
   label_classifier:
     input_dim: 1536
     classes: 10
-    f_name: 'audasc_label_classifier.pt'
+    f_name: 'label_classifier.pt'
   domain_classifier:
     input_dim: 1536
     classes: 1
