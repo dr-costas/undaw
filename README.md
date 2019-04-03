@@ -107,7 +107,7 @@ command line, when calling the ``main.py``. For example, like:
     `python scripts/main.py --config-file new_settings_file`
 
 Notice that the file name is without extension, meaning that only YAML
-(i.e. `*.yaml extension`) files can be used.  
+(i.e. `*.yaml` extension) files can be used.  
 
 The processes (i.e. pre-training, adaptation, and evaluation) should be run 
 with any module/neural network. 
