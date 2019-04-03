@@ -100,6 +100,15 @@ will be in the ``settings`` directory)
 functions in the ``helpers._models.py`` and ``helpers._modules_functions.py``
 files 
 
+To use the code with your new settings, you will have to place the new settings 
+file in the ``settings`` directory and specify the new settings file at the
+command line, when calling the ``main.py``. For example, like: 
+
+    `python scripts/main.py --config-file new_settings_file`
+
+Notice that the file name is without extension, meaning that only YAML
+(i.e. `*.yaml extension`) files can be used.  
+
 The processes (i.e. pre-training, adaptation, and evaluation) should be run 
 with any module/neural network. 
 
