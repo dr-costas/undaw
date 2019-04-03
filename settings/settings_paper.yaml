@@ -1,0 +1,110 @@
+# Paper settings
+# Author: Konstantinos Drossos -
+#         Tampere University
+#
+# These settings are used to produce
+# the results mentioned in the
+# associated paper.
+#
+# Please note that for the results of
+# the paper, the method used the
+# pre-trained acoustic scene
+# classification model. This means
+# the pre_trained flag at the models
+# asc_model section, was Yes/True.
+# -----------------------------------
+
+
+#------------------------------------
+# General settings
+#------------------------------------
+general_settings:
+  device: 'cuda'
+
+#------------------------------------
+# Process flow settings
+#------------------------------------
+process_flow:
+  do_pre_training: No
+  do_adaptation: No
+  do_evaluation: No
+  do_testing: Yes
+
+#------------------------------------
+# Data settings
+#------------------------------------
+data:
+  source_domain_device: 'A'
+  target_domain_device:
+    - 'B'
+    - 'C'
+  batch_size: 16
+  data_path: 'dataset/data'
+  workers: 0
+
+#------------------------------------
+# ModelAUDASC settings
+#------------------------------------
+models:
+  base_dir_name: 'outputs/models'
+  asc_model:
+    pre_trained: Yes
+    source_model_f_name: 'audasc_non_adapted_cnn.pt'
+    target_model_f_name: 'audasc_adapted_cnn.pt'
+  label_classifier:
+    input_dim: 1536
+    classes: 10
+    f_name: 'audasc_label_classifier.pt'
+  domain_classifier:
+    input_dim: 1536
+    classes: 1
+  optimizer_source_asc:
+    type: 'Adam'
+    lr: !!float 5e-5
+    keywords:
+
+  optimizer_target_asc:
+    type: 'RMSProp'
+    lr: !!float 5e-5
+    keywords:
+
+  optimizer_discriminator:
+    type: 'RMSProp'
+    lr: !!float 5e-5
+    keywords:
+
+#------------------------------------
+# Pre-training settings
+# (not used if models->asc_model->\
+#  pre_trained is True)
+#------------------------------------
+pre_training:
+  nb_epochs: 500
+  patience: 20
+
+#------------------------------------
+# Adaptation settings
+#------------------------------------
+adaptation:
+  nb_epochs: 300
+  use_gp: No
+  labels_loss_w: 1.
+  first_iter: 115
+  gp_lambda: 10.
+  n_critic: 5
+
+#------------------------------------
+# Auxiliary settings
+#------------------------------------
+aux_settings:
+  confusion_matrices:
+    print_them: Yes
+    save_path: 'outputs/img'
+    normalized: Yes
+    dpi: 1000
+    include_colorbar: No
+    file_format: 'eps'
+    color_scheme: 'copper'
+    tight_axes: Yes
+
+# EOF
