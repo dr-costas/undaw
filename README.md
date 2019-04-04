@@ -76,7 +76,7 @@ Enjoy!
 
 To reproduce the results of the paper, you have to:
 * make sure that you have followed the steps in the 
-[ dependencies, pre-requisites, and setting up the code ](#Dependencies,-pre-requisites,-and-setting up the code)
+[ dependencies, pre-requisites, and setting up the code ](#dependencies,-pre-requisites,-and-setting up the code)
 section
 * be at the root directory of the project (i.e. in the ``undaw`` directory)
 * issue the following command at your terminal: ``./undaw_paper.sh``
@@ -104,7 +104,7 @@ To use the code with your new settings, you will have to place the new settings
 file in the ``settings`` directory and specify the new settings file at the
 command line, when calling the ``main.py``. For example, like: 
 
-    `python scripts/main.py --config-file new_settings_file`
+    python scripts/main.py --config-file new_settings_file
 
 Notice that the file name is without extension, meaning that only YAML
 (i.e. `*.yaml` extension) files can be used.  
