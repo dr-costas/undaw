@@ -121,8 +121,8 @@ repository.
 ## Previous work
 
 Our work is based on the following previous work: 
-* AUDASC method, for domain adaptation for acoustic scene classification. 
-* Wasserstein GANs, for using the WGAN algorithm.
+* [AUDASC method](https://github.com/shayangharib/AUDASC), for domain adaptation for acoustic scene classification. 
+* [Wasserstein GANs](https://github.com/martinarjovsky/WassersteinGAN), for using the WGAN algorithm.
 
 --- 
 
