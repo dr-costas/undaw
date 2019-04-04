@@ -76,7 +76,7 @@ Enjoy!
 
 To reproduce the results of the paper, you have to:
 * make sure that you have followed the steps in the 
-[ dependencies, pre-requisites, and setting up the code ](#dependencies,-pre-requisites,-and-setting up the code)
+[dependencies, pre-requisites, and setting up the code](#dependencies-pre-requisites-and-setting-up-the-code)
 section
 * be at the root directory of the project (i.e. in the ``undaw`` directory)
 * issue the following command at your terminal: ``./undaw_paper.sh``
