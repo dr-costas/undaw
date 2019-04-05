@@ -2,11 +2,9 @@
 # -*- coding: utf-8 -*-
 
 from os import path
-import argparse
-
 import yaml
 
-from helpers import printing
+from helpers import printing, argument_parsing
 from scripts._pre_training import do_the_pre_training
 from scripts._adaptation import do_adaptation
 from scripts._evaluation import do_evaluation, do_testing
@@ -20,9 +18,7 @@ __all__ = ['main']
 def main():
     """The main entry point for the code.
     """
-    arg_parser = argparse.ArgumentParser()
-    arg_parser.add_argument('--config-file', type=str)
-
+    arg_parser = argument_parsing.get_argument_parser()
     args = arg_parser.parse_args()
 
     with open(path.join('settings', '{}.yaml'.format(args.config_file))) as f:
