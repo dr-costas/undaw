@@ -40,8 +40,7 @@ In order to use our code, you have to firstly:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1164585.svg)](https://zenodo.org/record/1401995#.W31Zaxx9iK4) 
 and the adapted model from 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2649151.svg)](https://doi.org/10.5281/zenodo.2649151)
- 
-(this is optional and is required only in the case that you want to reproduce the 
+ (this is optional and is required only in the case that you want to reproduce the 
 results of the paper)
 
 Then: 
