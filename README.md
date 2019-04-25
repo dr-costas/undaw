@@ -11,7 +11,7 @@ Drossos](https://tutcris.tut.fi/portal/en/persons/konstantinos-drosos(b1070370-5
 Our paper is submitted for review at the [2019 IEEE Workshop on Applications of Signal Processing to Audio 
 and Acoustics (WASPAA), Mohonk Mountain House, New Paltz, NY](https://www.waspaa.com/). 
 
-You can find an online version of our paper at arXiv:     
+You can find an online version of our paper at arXiv: https://arxiv.org/abs/1904.10678
 
 **If you use our method, please cite our paper.**
 
