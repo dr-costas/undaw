@@ -8,7 +8,7 @@ by [K.
 Drossos](https://tutcris.tut.fi/portal/en/persons/konstantinos-drosos(b1070370-5156-4280-b354-6291618bb965).html), 
 [P. Magron](http://www.cs.tut.fi/~magron/), and [T. Virtanen](http://www.cs.tut.fi/~tuomasv/). 
 
-Our paper is submitted for review at the [2019 IEEE Workshop on Applications of Signal Processing to Audio 
+Our paper is accepted for publication at the [2019 IEEE Workshop on Applications of Signal Processing to Audio 
 and Acoustics (WASPAA), Mohonk Mountain House, New Paltz, NY](https://www.waspaa.com/). 
 
 You can find an online version of our paper at arXiv: https://arxiv.org/abs/1904.10678
