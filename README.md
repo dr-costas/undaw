@@ -1,9 +1,9 @@
 # UNDAW Repository
 
-### Welcome to the repository of UNDAW (Unsupervised Adversarial Domain Adaptation Based on the Waserstein Distance)
+### Welcome to the repository of UNDAW (Unsupervised Adversarial Domain Adaptation Based on the Wasserstein Distance)
 
 This is the repository for the method presented in the paper: 
-"Unsupervised Adversarial Domain Adaptation Based on the Waserstein Distance," 
+"Unsupervised Adversarial Domain Adaptation Based on the Wasserstein Distance," 
 by [K.
 Drossos](https://tutcris.tut.fi/portal/en/persons/konstantinos-drosos(b1070370-5156-4280-b354-6291618bb965).html), 
 [P. Magron](http://www.cs.tut.fi/~magron/), and [T. Virtanen](http://www.cs.tut.fi/~tuomasv/). 
