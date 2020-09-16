@@ -52,7 +52,7 @@ def get_domain_classifier(settings):
     :rtype: torch.nn.Module
     """
     return _get_classifier(
-        classifier_type='labels',
+        classifier_type='domain',
         input_dim=settings['models']['domain_classifier']['input_dim'],
         output_classes=settings['models']['domain_classifier']['classes'],
         use_pre_trained=False).to(
